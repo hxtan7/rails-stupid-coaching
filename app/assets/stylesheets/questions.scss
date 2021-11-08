@@ -1,0 +1,36 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 30px;
+  margin: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.question_container {
+  background-color: lightgray;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 600px;
+   padding: 5px;
+   margin: 8px;
+}
+
+.answer_container {
+  background-color: lightyellow;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+  padding: 5px;
+  margin: 8px;
+}
+
+ a {
+   text-decoration: none;
+   color:blueviolet;
+
+   padding: 10px;
+   &:hover {
+     color: black;
+   }
+ }
